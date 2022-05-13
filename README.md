@@ -1,11 +1,22 @@
-# PSUnitTestFramework
+# PS Unit Test Framework, boilerplate repository
 This repo has sample powershell scripts with pester unit testing framework integrated to generate test and coverage reports
+
+
 
 # Steps
 * Clone the repo to ur local machine.
 * Open powershell editor and execute TestExecutor.ps1
+```bash
+ .\TestExecutor.ps1
+```
 * Observe a folder named "artifacts" will be created
 * Check all the files in that folder.
+
+Note: Before you clone this repo and run the test cases, set the execution policy in your machine to unrestricted
+
+```bash
+Set-ExecutionPolicy Unrestricted
+```
 
 *Files
 - AnalyzedFiles.txt  - this text file list all the files which were used to generate code coverage reports
