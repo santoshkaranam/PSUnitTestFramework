@@ -4,7 +4,7 @@ Describe 'Testing against PSSA rules' {
 
     Context 'PSSA Standard Rules' {
     
-        $analysis = Invoke-ScriptAnalyzer -Path  "$PSScriptRoot\..\scripts\*.ps1"
+        $analysis = Invoke-ScriptAnalyzer -Path  (Resolve-Path "$PSScriptRoot\..\scripts\*.ps1")
     
         $scriptAnalyzerRules = Get-ScriptAnalyzerRule
     

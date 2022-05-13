@@ -1,4 +1,4 @@
-$psFileToTest = "$PSScriptRoot\..\scripts\Add-Numbers.ps1"
+$psFileToTest = Resolve-Path "$PSScriptRoot\..\scripts\Add-Number.ps1"
 .$psFileToTest
 
 Describe 'Add Number' {
