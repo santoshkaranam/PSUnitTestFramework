@@ -1,3 +1,6 @@
+
+![image](https://user-images.githubusercontent.com/52455330/168485195-cb21df43-a125-4c6c-ab2e-8755417a2f12.png)
+
 # PS Unit Test Framework, boilerplate repository
 This repo has sample powershell scripts with pester unit testing framework integrated to generate test and coverage reports
 
